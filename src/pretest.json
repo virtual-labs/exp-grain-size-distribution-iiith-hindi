@@ -1,0 +1,90 @@
+{
+	"version": 2.0,
+	"questions": [
+		{
+			"question": "1. A soil sample may be well graded if it has ____.",
+			"answers": {
+				"a": "Most number of particles of same size",
+				"b": "Excess of certain particles",
+				"c": "Good representation of particles of all sizes",
+				"d": "None of the above"
+			},
+			"explanations": {
+				"a": "This is the definition of a uniform graded soil, not a well graded soil.",
+				"b": "More fit to be called uniform graded soil instead of well graded in this case.",
+				"c": "This is the correct definition for well graded soil.",
+				"d": "One of the other options does contain the correct definition of a well graded soil."
+			},
+			"difficulty": "beginner",
+			"correctAnswer": "c"
+		},
+		{
+			"question": "2. The particle size distribution curves are extremely useful for the classification of which of the following?",
+			"answers": {
+				"a": "Fine grained soils",
+				"b": "Coarse grained soils",
+				"c": "Silts and clays",
+				"d": "Both a and b"
+			},
+			"explanations": {
+				"a": "While these soils can be classified using the curves, this is not the completely right answer.",
+				"b": "While these soils can be classified using the curves, this is not the completely right answer.",
+				"c": "Silts and clays are difficult to sieve and usually end up giving a uniform graded type distribution which makes it hard to classify them by this method.",
+				"d": ""
+			},
+			"difficulty": "beginner",
+			"correctAnswer": "d"
+		},
+		{
+			"question": "3. The shape of the particle size curve, which is represented by the coefficient of curvature (C<sub>c</sub>), is given by ____.",
+			"answers": {
+				"a": "Cc = D<sub>30</sub><sup>2</sup> / (D<sub>10</sub> * D<sub>40</sub>)",
+				"b": "Cc = D<sub>40</sub><sup>2</sup> / (D<sub>10</sub> * D<sub>30</sub>)",
+				"c": "Cc = D<sub>30</sub><sup>2</sup> / (D<sub>10</sub> * D<sub>60</sub>)",
+				"d": "Cc = D<sub>60</sub> / D<sub>10</sub>"
+			},
+			"explanations": {
+				"a": "The denominator is incorrect in this option. We use different readings from those given here.",
+				"b": "The numerator is incorrect in this option. We use different readings from those given here.",
+				"c": "",
+				"d": "This is the formula for the coefficient of uniformity and not of coefficient of curvature."
+			},
+			"difficulty": "intermediate",
+			"correctAnswer": "c"
+		},
+		{
+			"question": "4. The coefficient of uniformity (C<sub>u</sub>) is the ratio of ____.",
+			"answers": {
+				"a": "D<sub>60</sub> and D<sub>10</sub>",
+				"b": "D<sub>30</sub> and D<sub>10</sub>",
+				"c": "D<sub>10</sub> and D<sub>30</sub>",
+				"d": "D<sub>10</sub> and D<sub>60</sub>"
+			},
+			"explanations": {
+				"a": "The formula is: Uniformity coefficient, C<sub>u</sub> = D<sub>60</sub> / D<sub>10</sub>.",
+				"b": "We use different readings from the ones mentioned in this option.",
+				"c": "We use different readings from the ones mentioned in this option.",
+				"d": "This is inverse of the actual formula."
+			},
+			"difficulty": "intermediate",
+			"correctAnswer": "a"
+		},
+		{
+			"question": "5. Laboratory sieve analysis was carried out on a soil sample using a complete set of standard IS sieves. Out of 500g of soil used in the test, 200g was retained on IS 600 Mu sieve, 250g was retained on IS 500 Mu sieve and the remaining 50g was retained on IS 425 Mu sieve. Determine the uniformity coefficient (C<sub>u</sub>).",
+			"answers": {
+				"a": "0.83",
+				"b": "1",
+				"c": "1.17",
+				"d": "1.2"
+			},
+			"explanations": {
+				"a": "This answer is probably obtained by applying the wrong formula. The formula is: C<sub>u</sub> = D<sub>60</sub> / D<sub>10</sub>.",
+				"b": "This answer is probably obtained either by applying an incorrect formula or by using incorrect values. The formula is: C<sub>u</sub> = D<sub>60</sub> / D<sub>10</sub>, where D<sub>60</sub> is the particle size for which 60% of the soil is finer and D<sub>10</sub> is the particle size for which 10% of the soil is finer.",
+				"c": "This answer is probably obtained by using incorrect values. The formula is: C<sub>u</sub> = D<sub>60</sub> / D<sub>10</sub>, where D<sub>60</sub> is the particle size for which 60% of the soil is finer and D<sub>10</sub> is the particle size for which 10% of the soil is finer.",
+				"d": "If we tabulate the data including derived values such as the soil percent finer for each sieve, we find that exactly 60% soil is finer than 600 Mu sieve and exactly 10% for 500 Mu. Using this, we can directly apply the formula: C<sub>u</sub> = D<sub>60</sub> / D<sub>10</sub>."
+			},
+			"difficulty": "advanced",
+			"correctAnswer": "d"
+		}
+	]
+}
